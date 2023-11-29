@@ -121,7 +121,7 @@ public class Metodo_Repeat extends javax.swing.JFrame {
 
         
         if (VecesRep > 0) {
-            //Implementacion del metodo repeat
+            //Implementacion del metodo 
             String cadenaRepeat = cadena.repeat(VecesRep);
             String mensaje = "Cadena original: " + cadena + "\n"
                     + "Cadena repetida " + VecesRep + " veces: " + cadenaRepeat;
@@ -132,6 +132,7 @@ public class Metodo_Repeat extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Por favor, ingrese un número entero positivo para la repetición.");
         }
     } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Por favor, ingrese un número entero para la repetición.");
         
         
     }
