@@ -133,8 +133,6 @@ public class Metodo_Repeat extends javax.swing.JFrame {
         }
     } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(null, "Por favor, ingrese un número entero para la repetición.");
-        
-        
     }
 
     }//GEN-LAST:event_btnRepetirActionPerformed
